@@ -7,23 +7,23 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('/players')
-  findAll(): any {
+  getAll(): playerObj[] {
     return this.appService.getAllPlayers();
   }
 
   @Get('/players/random')
-  findRandomPlayer(): playerObj {
+  getRandomPlayer(): playerObj {
     return this.appService.getRandomPlayer();
   }
 
   @Get('/players/:id')
-  findPlayerByNumber(@Param() params): playerObj {
+  getPlayerByNumber(@Param() params): playerObj {
     const { id } = params;
     return this.appService.getPlayerByNumber(id);
   }
 
-  @Get('/position/:position')
-  findPlayersByPosition(@Param() params): playerObj[] {
+  @Get('/players/position/:position')
+  getPlayersByPosition(@Param() params): playerObj[] {
     const { position } = params;
     return this.appService.getPlayerByPosition(position);
   }
