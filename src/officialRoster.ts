@@ -555,7 +555,7 @@ export default [
     id: '2d12ea2d-218b-4d83-bad5-46b72d7dd1a1',
     number: '88',
     first_name: 'Dallas',
-    last_name: 'Goeder',
+    last_name: 'Goedert',
     position: 'te',
     height: '6-5',
     weight: '256',
