@@ -12,17 +12,17 @@ export class AppController {
   ) {}
 
   @Get('/players')
-  getAll(): playerObj[] {
+  getAll() {
     return this.appService.getAllPlayers();
   }
 
   @Get('/players/random')
-  getRandomPlayer(): playerObj {
+  getRandomPlayer() {
     return this.appService.getRandomPlayer();
   }
 
   @Get('/players/:id')
-  getPlayerByNumber(@Param() params): playerObj {
+  getPlayerByNumber(@Param() params) {
     const { id } = params;
 
     if (!_.inRange(id, 1, 100)) {
@@ -39,7 +39,7 @@ export class AppController {
   }
 
   @Get('/players/position/:position')
-  getPlayersByPosition(@Param() params): playerObj[] {
+  getPlayersByPosition(@Param() params) {
     const { position } = params;
     const validPosition = this.appUtils.validatePosition(position);
 
