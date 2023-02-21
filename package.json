@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "npm run updateRoster && nest build",
+    "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "updateRoster": "npx tsc scripts/updateRoster.ts && node scripts/updateRoster.js",
     "start": "nest start",
