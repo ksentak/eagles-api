@@ -2,7 +2,7 @@
 
 ## Documentation
 
-The `Eagles API` allows users to obtain basic player information data of players that are on the current roster (2022). Data includes the player's name, number, height, weight, and college. The API was built with NestJS and is deployed to an `AWS Lambda` using `serverless`.
+The `Eagles API` allows users to obtain basic player information data of players that are on the current roster. Data includes the player's name, number, height, weight, and college. The API was built with NestJS and is deployed to an `AWS Lambda` using `serverless`.
 
 ### Endpoints
 
