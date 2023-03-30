@@ -14,7 +14,7 @@ const validPositions = [
   'lb',
   'cb',
   's',
-  'k',
+  'pk',
   'p',
   'ls',
 ];
