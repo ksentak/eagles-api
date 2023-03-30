@@ -2,7 +2,6 @@ import { Controller, Get, HttpException, Param } from '@nestjs/common';
 import _ from 'lodash';
 import { AppService } from './app.service';
 import { AppUtils } from './app.utils';
-import { playerObj } from './app.interface';
 
 @Controller()
 export class AppController {
