@@ -24,8 +24,8 @@ export class AppController {
   getPlayerByNumber(@Param() params) {
     const { id } = params;
 
-    if (!_.inRange(id, 1, 100)) {
-      throw new HttpException('Player number must be between 1-99', 400);
+    if (!_.inRange(id, 0, 100)) {
+      throw new HttpException('Player number must be between 0-99', 400);
     }
 
     const player = this.appService.getPlayerByNumber(id);
