@@ -24,6 +24,14 @@ The `Eagles API` allows users to obtain basic player information data of players
 $ npm install
 ```
 
+## Roster Update Script
+
+To update roster information:
+
+```bash
+$ npm run updateRoster
+```
+
 ## Running the app
 
 ```bash
