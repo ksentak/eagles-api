@@ -6,7 +6,7 @@ const validPositions = [
   'rb',
   'wr',
   'te',
-  't',
+  'ot',
   'g',
   'c',
   'de',

@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import _ from 'lodash';
 import players from './officialRoster.json';
-import { playerObj } from './app.interface';
 
 @Injectable()
 export class AppService {
