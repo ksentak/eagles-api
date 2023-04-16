@@ -3,6 +3,10 @@
 /node_modules
 .serverless
 
+# Unnecessary uploads
+/scripts/updateRoster.js
+/src/officialRoster.json
+
 # Logs
 logs
 *.log
