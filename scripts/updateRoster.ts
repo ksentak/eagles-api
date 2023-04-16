@@ -23,7 +23,7 @@ const organizeRoster = (roster) => {
 
   const officialRoster = _.map(combinedRoster, (player) => ({
     id: _.get(player, 'id'),
-    number: _.get(player, 'jersey', 'n/a'),
+    number: _.get(player, 'jersey', 'N/A'),
     first_name: _.get(player, 'firstName'),
     last_name: _.get(player, 'lastName'),
     position: _.lowerCase(_.get(player.position, 'abbreviation')),
@@ -31,7 +31,7 @@ const organizeRoster = (roster) => {
     weight: _.toString(_.get(player, 'weight')),
     age: _.toString(_.get(player, 'age')),
     years_pro: _.toString(_.get(player.experience, 'years')),
-    college: _.get(player.college, 'shortName', 'n/a'),
+    college: _.get(player.college, 'shortName', 'N/A'),
   }));
 
   return officialRoster;
