@@ -16,62 +16,91 @@ describe('AppController', () => {
     appController = app.get<AppController>(AppController);
   });
 
-  it('should return all players', () => {
-    // Arrange
-    jest.spyOn(appController, 'getAll').mockReturnValue(sampleData);
+  describe('getAll', () => {
+    it('should return an array of all players', () => {
+      // Arrange
+      jest.spyOn(appController, 'getAll').mockReturnValue(sampleData);
 
-    // Act
-    const response = appController.getAll();
+      // Act
+      const response = appController.getAll();
 
-    // Assert
-    expect(response).toEqual(sampleData);
+      // Assert
+      expect(response).toEqual(expect.any(Array));
+      expect(response).toEqual(sampleData);
+    });
   });
 
-  it('should return a random player', () => {
-    // Arrange
-    jest.spyOn(appController, 'getRandomPlayer').mockReturnValue(sampleData[0]);
+  describe('getRandomPlayer', () => {
+    it('should return a random player', () => {
+      // Arrange
+      jest
+        .spyOn(appController, 'getRandomPlayer')
+        .mockReturnValue(sampleData[0]);
 
-    // Act
-    const response = appController.getRandomPlayer();
+      // Act
+      const response = appController.getRandomPlayer();
 
-    // Assert
-    expect(response).toEqual(sampleData[0]);
+      // Assert
+      expect(response).toEqual(sampleData[0]);
+    });
   });
 
-  it('should return a specific player', () => {
-    // Arrange
-    jest
-      .spyOn(appController, 'getPlayerByNumber')
-      .mockReturnValue(sampleData[3]);
+  describe('getPlayerByNumber', () => {
+    it('should return a single player by their number', () => {
+      // Arrange
+      jest
+        .spyOn(appController, 'getPlayerByNumber')
+        .mockReturnValue(sampleData[3]);
 
-    // Act
-    const response = appController.getPlayerByNumber('4');
+      // Act
+      const response = appController.getPlayerByNumber('4');
 
-    // Assert
-    expect(response).toEqual(sampleData[3]);
+      // Assert
+      expect(response).toEqual(expect.any(Object));
+      expect(response).toEqual(sampleData[3]);
+    });
+
+    it('should throw a 400 error if player number is out of range', () => {
+      // Arrange
+      const invalidPlayerNumber = '101';
+
+      // Act and Assert
+      expect(() => {
+        appController.getPlayerByNumber(invalidPlayerNumber);
+      }).toThrow('Player number must be between 0-99');
+    });
   });
 
-  it('should return a specific position group', () => {
-    // Arrange
-    jest
-      .spyOn(appController, 'getPlayersByPosition')
-      .mockReturnValue([sampleData[1], sampleData[2]]);
+  describe('getPlayersByPosition', () => {
+    it('should return an array of players by position', () => {
+      // Arrange
+      jest
+        .spyOn(appController, 'getPlayersByPosition')
+        .mockReturnValue([sampleData[1], sampleData[2]]);
 
-    // Act
-    const response = appController.getPlayersByPosition('cb');
+      // Act
+      const response = appController.getPlayersByPosition('cb');
 
-    // Assert
-    expect(response).toEqual([sampleData[1], sampleData[2]]);
-  });
+      // Assert
+      expect(response).toEqual([sampleData[1], sampleData[2]]);
+    });
 
-  it('should return an empty array if no players in the position group exist', () => {
-    // Arrange
-    jest.spyOn(appController, 'getPlayersByPosition').mockReturnValue([]);
+    it('should return an empty array if no players in the position group exist', () => {
+      // Arrange
+      jest.spyOn(appController, 'getPlayersByPosition').mockReturnValue([]);
 
-    // Act
-    const response = appController.getPlayersByPosition('dt');
+      // Act
+      const response = appController.getPlayersByPosition('dt');
 
-    // Assert
-    expect(response).toEqual([]);
+      // Assert
+      expect(response).toEqual([]);
+    });
+
+    it('should throw a 400 error if an invalid position is entered', () => {
+      // Act & Assert
+      expect(() => {
+        appController.getPlayersByPosition('invalidPosition');
+      }).toThrowError('Please enter a valid position');
+    });
   });
 });
