@@ -70,3 +70,7 @@ $ sls deploy
 # deploy aws lambda (prod)
 $ sls deploy --stage prod
 ```
+
+## CI/CD
+
+Automatic deployment of the API will occur each time a change is made on the main branch.
