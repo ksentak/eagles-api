@@ -1,24 +1,40 @@
 # Eagles API
 
+The Eagles API is a RESTful API built with NestJS that provides basic player information for players on the current roster of the Philadelphia Eagles. The API is built with NestJs and is deployed to an AWS Lambda using the Serverless framework.
+
+## Table of Contents
+
+- [Documentation](#documentation)
+  - [Base URL](#base-url)
+  - [API Methods](#api-methods)
+- [Installation](#installation)
+- [Roster Update Script](#roster-update-script)
+- [Running the App](#running-the-app)
+- [Testing](#testing)
+- [Deploying (Serverless)](#deploying-serverless)
+- [CI/CD](#cicd)
+
 ## Documentation
-
-The `Eagles API` allows users to obtain basic player information data of players that are on the current roster. Data includes the player's name, number, height, weight, and college. The API was built with NestJS and is deployed to an `AWS Lambda` using `serverless`.
-
-### Endpoints
 
 #### Base URL
 
-### `https://5o1j7ybsh2.execute-api.us-east-1.amazonaws.com/prod`
+```bash
+`https://5o1j7ybsh2.execute-api.us-east-1.amazonaws.com/prod`
+```
 
-#### `GET /players - Gets all players`
+#### API Methods
 
-#### `GET /players/random - Gets a random player`
+- `GET /players - Retrieves all players.`
 
-#### `GET /players/:jerseyNumber - Gets a player based on the inputted jersey number`
+- `GET /players/random - Retrieves a random player.`
 
-#### `GET /players/position/:position - Gets players based on the inputted position`
+- `GET /players/:jerseyNumber - Retrieves a player based on the inputted jersey number.`
+
+- `GET /players/position/:position - Retrieves players based on the inputted position.`
 
 ## Installation
+
+To install the necessary dependencies, run the following command:
 
 ```bash
 $ npm install
@@ -26,13 +42,15 @@ $ npm install
 
 ## Roster Update Script
 
-To update roster information:
+To update the roster information, run the following command:
 
 ```bash
 $ npm run updateRoster
 ```
 
-## Running the app
+## Running the App
+
+To run the app, use the following commands:
 
 ```bash
 # development
@@ -47,6 +65,8 @@ $ sls offline
 
 ## Testing
 
+To run tests, use the following commands:
+
 ```bash
 # unit tests
 $ npm run test
@@ -59,6 +79,8 @@ $ npm run test:cov
 ```
 
 ## Deploying (Serverless)
+
+To deploy the app using Serverless, use the following commands:
 
 ```bash
 # build application
