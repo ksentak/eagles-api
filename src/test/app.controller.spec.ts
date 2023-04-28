@@ -6,6 +6,7 @@ import sampleData from './sampleData';
 
 describe('AppController', () => {
   let appController: AppController;
+  let appService: AppService;
 
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
@@ -14,17 +15,21 @@ describe('AppController', () => {
     }).compile();
 
     appController = app.get<AppController>(AppController);
+    appService = app.get<AppService>(AppService);
   });
 
   describe('getAll', () => {
     it('should return an array of all players', () => {
       // Arrange
-      jest.spyOn(appController, 'getAll').mockReturnValue(sampleData);
+      const getAllPlayersSpy = jest
+        .spyOn(appService, 'getAllPlayers')
+        .mockReturnValue(sampleData);
 
       // Act
       const response = appController.getAll();
 
       // Assert
+      expect(getAllPlayersSpy).toHaveBeenCalled();
       expect(response).toEqual(expect.any(Array));
       expect(response).toEqual(sampleData);
     });
@@ -33,31 +38,47 @@ describe('AppController', () => {
   describe('getRandomPlayer', () => {
     it('should return a random player', () => {
       // Arrange
-      jest
-        .spyOn(appController, 'getRandomPlayer')
-        .mockReturnValue(sampleData[0]);
+      const randomPlayer = sampleData[0];
+      jest.spyOn(appService, 'getRandomPlayer').mockReturnValue(randomPlayer);
 
       // Act
       const response = appController.getRandomPlayer();
 
       // Assert
-      expect(response).toEqual(sampleData[0]);
+      expect(appService.getRandomPlayer).toHaveBeenCalled(); // Ensure that the service method was called
+      expect(response).toEqual(randomPlayer);
     });
   });
 
   describe('getPlayerByNumber', () => {
     it('should return a single player by their number', () => {
       // Arrange
-      jest
-        .spyOn(appController, 'getPlayerByNumber')
+      const getPlayerByNumberSpy = jest
+        .spyOn(appService, 'getPlayerByNumber')
         .mockReturnValue(sampleData[3]);
 
       // Act
-      const response = appController.getPlayerByNumber('4');
+      const response = appController.getPlayerByNumber({ id: 4 });
 
       // Assert
+      //expect(getPlayerByNumberSpy).toHaveBeenCalledWith('4');
       expect(response).toEqual(expect.any(Object));
       expect(response).toEqual(sampleData[3]);
+    });
+
+    it('should throw a 404 error if player is not found', () => {
+      // Arrange
+      const mockPlayerByNumber = jest
+        .spyOn(appService, 'getPlayerByNumber')
+        .mockReturnValue(undefined);
+      const invalidPlayerNumber = '49';
+
+      // Act and Assert
+      expect(() => {
+        appController.getPlayerByNumber({ id: invalidPlayerNumber });
+      }).toThrow('Player not found');
+
+      expect(mockPlayerByNumber).toHaveBeenCalledWith(invalidPlayerNumber);
     });
 
     it('should throw a 400 error if player number is out of range', () => {
@@ -74,15 +95,18 @@ describe('AppController', () => {
   describe('getPlayersByPosition', () => {
     it('should return an array of players by position', () => {
       // Arrange
+      const position = 'cb';
+      const expectedPlayers = [sampleData[1], sampleData[2]];
       jest
-        .spyOn(appController, 'getPlayersByPosition')
-        .mockReturnValue([sampleData[1], sampleData[2]]);
+        .spyOn(appService, 'getPlayerByPosition')
+        .mockReturnValue(expectedPlayers);
 
       // Act
-      const response = appController.getPlayersByPosition('cb');
+      const response = appController.getPlayersByPosition({ position });
 
       // Assert
-      expect(response).toEqual([sampleData[1], sampleData[2]]);
+      expect(response).toEqual(expectedPlayers);
+      expect(appService.getPlayerByPosition).toHaveBeenCalledWith(position);
     });
 
     it('should return an empty array if no players in the position group exist', () => {

@@ -54,7 +54,7 @@ describe('AppService', () => {
     it('should return undefined if no player with the given number exists', () => {
       const result = appService.getPlayerByNumber('999');
 
-      expect(result).toBeUndefined();
+      expect(result).toBe(undefined);
     });
   });
 

@@ -30,7 +30,7 @@ export class AppController {
 
     const player = this.appService.getPlayerByNumber(id);
 
-    if (_.isEmpty(player)) {
+    if (player === undefined) {
       throw new HttpException('Player not found', 404);
     }
 
