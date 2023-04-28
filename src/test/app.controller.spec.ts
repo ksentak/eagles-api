@@ -61,7 +61,6 @@ describe('AppController', () => {
       const response = appController.getPlayerByNumber({ id: 4 });
 
       // Assert
-      //expect(getPlayerByNumberSpy).toHaveBeenCalledWith('4');
       expect(response).toEqual(expect.any(Object));
       expect(response).toEqual(sampleData[3]);
     });
