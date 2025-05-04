@@ -1,8 +1,5 @@
 service: eagles-api
 
-plugins:
-  - ${opt:stage, 'dev'} == 'prod' ? null: serverless-offline
-
 provider:
   name: aws
   runtime: nodejs22.x
