@@ -1,7 +1,7 @@
 service: eagles-api
 
 plugins:
-  - serverless-offline
+  - ${file(./plugins.js):getPlugins}
 
 provider:
   name: aws
