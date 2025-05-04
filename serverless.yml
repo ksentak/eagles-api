@@ -1,7 +1,7 @@
 service: eagles-api
 
 plugins:
-  - ${file(./plugins.js):getPlugins}
+  - ${opt:stage, 'dev'} == 'prod' ? null: serverless-offline
 
 provider:
   name: aws
