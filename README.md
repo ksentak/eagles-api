@@ -1,6 +1,6 @@
 # Eagles API
 
-The Eagles API is a RESTful API built with NestJS that provides basic player information for players on the current roster of the Philadelphia Eagles. The API is built with NestJs and is deployed to an AWS Lambda using the Serverless framework.
+The Eagles API is a RESTful API built with Python & FastApi that provides basic player information for players on the current roster of the Philadelphia Eagles. The API is deployed to a Google Cloud Run instance.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ The Eagles API is a RESTful API built with NestJS that provides basic player inf
 #### Base URL
 
 ```bash
-`https://5o1j7ybsh2.execute-api.us-east-1.amazonaws.com/prod`
+TODO - Add URL
 ```
 
 #### API Methods
@@ -33,6 +33,8 @@ The Eagles API is a RESTful API built with NestJS that provides basic player inf
 - `GET /players/position/:position - Retrieves players based on the inputted position.`
 
 ## Installation
+
+TODO - UPDATE ALL INSTRUCTIONS BELOW
 
 To install the necessary dependencies, run the following command:
 
@@ -77,22 +79,3 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Deploying (Serverless)
-
-To deploy the app using Serverless, use the following commands:
-
-```bash
-# build application
-$ npm run build
-
-# deploy aws lambda (dev)
-$ sls deploy
-
-# deploy aws lambda (prod)
-$ sls deploy --stage prod
-```
-
-## CI/CD
-
-Automatic deployment of the API will occur each time a change is made on the main branch.
