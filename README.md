@@ -64,5 +64,13 @@ $ uvicorn app.main:app --reload
 
 # Define a port
 $ uvicorn app.main:app --reload --port 5050
+```
 
+## Running the App w/ Docker
+
+To run the app with Docker, use the following commands:
+
+```bash
+docker build -t eagles-api .
+docker run -p 8000:8080 eagles-api
 ```

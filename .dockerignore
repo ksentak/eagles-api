@@ -1,0 +1,29 @@
+# Bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Git
+.git
+.gitignore
+
+# OS files
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Logs or temp
+*.log
+*.swp
+
+# Python dotenv or secrets
+.env
+*.env
+
+# Test folders
+tests/
