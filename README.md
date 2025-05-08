@@ -60,6 +60,9 @@ python3 -m scripts.update_roster
 To run the app, use the following commands:
 
 ```bash
-# development
 $ uvicorn app.main:app --reload
+
+# Define a port
+$ uvicorn app.main:app --reload --port 5050
+
 ```
