@@ -3,7 +3,7 @@ name: Build and Deploy to Cloud Run (No gcloud on local)
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [feature/python]
 
 jobs:
   deploy:
