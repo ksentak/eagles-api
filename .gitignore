@@ -2,9 +2,6 @@ venv
 __pycache__/
 *.pyc
 
-# Unnecessary uploads
-data/official_roster.json
-
 # OS
 .DS_Store
 
