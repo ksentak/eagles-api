@@ -1,4 +1,9 @@
-name: Build and Push to Artifact Registry
+name: Build and Deploy to Cloud Run (No gcloud on local)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [feature/python]
 
 jobs:
   build-and-push:
