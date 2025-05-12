@@ -20,3 +20,7 @@ __pycache__/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Future development
+data/all_rosters.json
+app/all_rosters.py
