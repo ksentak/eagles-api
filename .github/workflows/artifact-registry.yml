@@ -4,7 +4,7 @@ on:
   push:
     branches: ['feature/python']
 
-job:
+jobs:
   build-push-artifact:
     runs-on: ubuntu-latest
     steps:
