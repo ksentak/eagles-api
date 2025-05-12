@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run update roster script
-        run: python scripts/update_roster.py
+        run: python -m scripts.update_roster
 
       - name: Commit updated official_roster.json
         run: |
