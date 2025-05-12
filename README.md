@@ -20,13 +20,13 @@ TODO - Add URL
 
 #### API Methods
 
-- `GET /players - Retrieves all players.`
+- `GET /api/v1players - Retrieves all players.`
 
-- `GET /players/random - Retrieves a random player.`
+- `GET /api/v1/players/random - Retrieves a random player.`
 
-- `GET /players/:jerseyNumber - Retrieves a player based on the inputted jersey number.`
+- `GET /api/v1/players/:jerseyNumber - Retrieves a player based on the inputted jersey number.`
 
-- `GET /players/position/:position - Retrieves players based on the inputted position.`
+- `GET /api/v1/players/position/:position - Retrieves players based on the inputted position.`
 
 ## Getting Started
 
