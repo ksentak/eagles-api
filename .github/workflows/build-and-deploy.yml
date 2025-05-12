@@ -2,7 +2,7 @@ name: Deploy to Cloud Run
 
 on:
   push:
-    branches: [feature/python]
+    branches: [main]
 
 jobs:
   deploy:
