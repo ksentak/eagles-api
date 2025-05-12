@@ -1,39 +1,42 @@
-# name: Deploy to Cloud Run
+name: Deploy to Cloud Run
 
-# on:
-#   push:
-#     branches: [feature/python]
+on:
+  push:
+    branches: [feature/python]
 
-# jobs:
-#   deploy:
-#     runs-on: ubuntu-latest
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
 
-#     steps:
-#       - name: Checkout repository
-#         uses: actions/checkout@v3
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-#       - name: Google Auth
-#         id: auth
-#         uses: google-github-actions/auth@v1
-#         with:
-#           credentials_json: ${{ secrets.GCP_SA_KEY }}
+      - name: Google Auth
+        id: auth
+        uses: google-github-actions/auth@v1
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
 
-#       - name: Set up Cloud SDK
-#         uses: google-github-actions/setup-gcloud@v1
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
 
-#       - name: Configure Docker for Artifact Registry
-#         run: |
-#           gcloud auth configure-docker ${{ secrets.GCP_REGION }}-docker.pkg.dev
+      - name: 'Use gcloud CLI'
+        run: 'gcloud info'
 
-#       - name: Build and push Docker image
-#         run: |
-#           docker build -t ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }} .
-#           docker push ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
+      - name: Configure Docker for Artifact Registry
+        run: |
+          gcloud auth configure-docker ${{ secrets.GCP_REGION }}-docker.pkg.dev
 
-#       - name: Deploy to Cloud Run
-#         uses: google-github-actions/deploy-cloudrun@v1
-#         with:
-#           service: eagles-api-service
-#           image: ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
-#           region: ${{ secrets.GCP_REGION }}
-#           flags: --allow-unauthenticated --memory=512Mi --cpu=1 --port=8080
+      - name: Build and push Docker image
+        run: |
+          docker build -t ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }} .
+          docker push ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
+
+      # - name: Deploy to Cloud Run
+      #   uses: google-github-actions/deploy-cloudrun@v1
+      #   with:
+      #     service: eagles-api-service
+      #     image: ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
+      #     region: ${{ secrets.GCP_REGION }}
+      #     flags: --allow-unauthenticated --memory=512Mi --cpu=1 --port=8080
