@@ -3,8 +3,6 @@ name: Update NFL Roster
 on:
   schedule:
     - cron: '0 0 1 * *' # 1st of the month at 00:00 UTC
-  push:
-    branches: [feature/python]
 
 jobs:
   update-roster:
