@@ -37,10 +37,10 @@ jobs:
 
           docker push ${{ env.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
 
-      # - name: Deploy to Cloud Run
-      #   uses: google-github-actions/deploy-cloudrun@v1
-      #   with:
-      #     service: eagles-api-service
-      #     image: ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
-      #     region: ${{ secrets.GCP_REGION }}
-      #     flags: --allow-unauthenticated --memory=512Mi --cpu=1 --port=8080
+      - name: Deploy to Cloud Run
+        uses: google-github-actions/deploy-cloudrun@v1
+        with:
+          service: eagles-api-service
+          image: ${{ env.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
+          region: ${{ env.GCP_REGION }}
+          flags: --allow-unauthenticated --memory=512Mi --cpu=1 --port=8080

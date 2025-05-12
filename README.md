@@ -63,7 +63,7 @@ To run the app, use the following commands:
 $ uvicorn app.main:app --reload
 
 # Define a port
-$ uvicorn app.main:app --reload --port 5050
+$ uvicorn app.main:app --reload --port 8080
 ```
 
 ## Running the App w/ Docker
