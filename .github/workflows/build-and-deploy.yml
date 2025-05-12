@@ -8,6 +8,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    env:
+      GCP_REGION: us-east1
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -26,12 +29,13 @@ jobs:
 
       - name: Configure Docker for Artifact Registry
         run: |
-          gcloud auth configure-docker ${{ secrets.GCP_REGION }}-docker.pkg.dev
+          gcloud auth configure-docker ${{ env.GCP_REGION }}-docker.pkg.dev
 
       - name: Build and push Docker image
         run: |
-          docker build -t ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }} .
-          docker push ${{ secrets.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
+          docker build -t ${{ env.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }} .
+
+          docker push ${{ env.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
 
       # - name: Deploy to Cloud Run
       #   uses: google-github-actions/deploy-cloudrun@v1
