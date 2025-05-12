@@ -1,27 +1,9 @@
-# compiled output
-/dist
-/node_modules
-.serverless
-
-# Unnecessary uploads
-/scripts/updateRoster.js
-/src/officialRoster.json
-
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+venv
+__pycache__/
+*.pyc
 
 # OS
 .DS_Store
-
-# Tests
-/coverage
-/.nyc_output
 
 # IDEs and editors
 /.idea
@@ -38,3 +20,7 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Future development
+data/all_rosters.json
+app/all_rosters.py

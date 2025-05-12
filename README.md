@@ -1,6 +1,6 @@
 # Eagles API
 
-The Eagles API is a RESTful API built with NestJS that provides basic player information for players on the current roster of the Philadelphia Eagles. The API is built with NestJs and is deployed to an AWS Lambda using the Serverless framework.
+The Eagles API is a RESTful API built with Python & FastApi that provides basic player information for players on the current roster of the Philadelphia Eagles. The API is deployed to a Google Cloud Run instance.
 
 ## Table of Contents
 
@@ -8,91 +8,69 @@ The Eagles API is a RESTful API built with NestJS that provides basic player inf
   - [Base URL](#base-url)
   - [API Methods](#api-methods)
 - [Installation](#installation)
-- [Roster Update Script](#roster-update-script)
 - [Running the App](#running-the-app)
-- [Testing](#testing)
-- [Deploying (Serverless)](#deploying-serverless)
-- [CI/CD](#cicd)
 
 ## Documentation
 
 #### Base URL
 
 ```bash
-`https://5o1j7ybsh2.execute-api.us-east-1.amazonaws.com/prod`
+TODO - Add URL
 ```
 
 #### API Methods
 
-- `GET /players - Retrieves all players.`
+- `GET /api/v1players - Retrieves all players.`
 
-- `GET /players/random - Retrieves a random player.`
+- `GET /api/v1/players/random - Retrieves a random player.`
 
-- `GET /players/:jerseyNumber - Retrieves a player based on the inputted jersey number.`
+- `GET /api/v1/players/:jerseyNumber - Retrieves a player based on the inputted jersey number.`
 
-- `GET /players/position/:position - Retrieves players based on the inputted position.`
+- `GET /api/v1/players/position/:position - Retrieves players based on the inputted position.`
 
-## Installation
+## Getting Started
 
-To install the necessary dependencies, run the following command:
-
-```bash
-$ npm install
-```
-
-## Roster Update Script
-
-To update the roster information, run the following command:
+1. Create a virtual environment.
 
 ```bash
-$ npm run updateRoster
+$ python3 -m venv venv
 ```
 
-## Running the App
+2. Activate virtual environment & install dependencies
+
+```bash
+# Activate it (Mac/Linux)
+source venv/bin/activate
+
+# Or on Windows
+venv\Scripts\activate
+
+# Then install dependencies
+pip install -r requirements.txt
+```
+
+## Generate Roster
+
+```bash
+python3 -m scripts.update_roster
+```
+
+## Running the App Locally
 
 To run the app, use the following commands:
 
 ```bash
-# development
-$ npm run start
+$ uvicorn app.main:app --reload
 
-# watch mode
-$ npm run start:dev
-
-# serverless mode
-$ sls offline
+# Define a port
+$ uvicorn app.main:app --reload --port 8080
 ```
 
-## Testing
+## Running the App w/ Docker
 
-To run tests, use the following commands:
+To run the app with Docker, use the following commands:
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+docker build -t eagles-api .
+docker run -p 8000:8080 eagles-api
 ```
-
-## Deploying (Serverless)
-
-To deploy the app using Serverless, use the following commands:
-
-```bash
-# build application
-$ npm run build
-
-# deploy aws lambda (dev)
-$ sls deploy
-
-# deploy aws lambda (prod)
-$ sls deploy --stage prod
-```
-
-## CI/CD
-
-Automatic deployment of the API will occur each time a change is made on the main branch.
