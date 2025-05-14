@@ -30,14 +30,14 @@ def read_random_player():
 @router.get("/players/position/{position}",
     response_model=List[Player],
     summary="Get players by position",
-    description=f"Returns all players who play at the specified position. Valid positions: {', '.join(VALID_POSITIONS)}")
-def read_players_by_position(
-    position: str = Path(
-        ...,
-        description=f"Player position (valid values: {', '.join(VALID_POSITIONS)})",
-        enum=VALID_POSITIONS 
-    )
-):
+    description=f"Returns all players who play at the specified position. Valid positions: {', '.join(VALID_POSITIONS)}"
+)
+def read_players_by_position(position: str):
+    if position not in [pos for pos in VALID_POSITIONS]:
+        raise HTTPException(
+            status_code=422,
+            detail=f"Invalid position. Must be one of: {', '.join(VALID_POSITIONS)}"
+        )
     players = get_players_by_position(position)
     if not players:
         raise HTTPException(status_code=404, detail="No players at this position")
