@@ -44,27 +44,3 @@ jobs:
           image: ${{ env.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api:${{ github.sha }}
           region: ${{ env.GCP_REGION }}
           flags: --allow-unauthenticated --memory=512Mi --cpu=1 --port=8080
-
-      - name: Delete old container images
-        run: |
-          gcloud artifacts docker images list ${{ env.GCP_REGION }}-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/eagles-api-repo/eagles-api \
-            --sort-by=~UPDATE_TIME \
-            --format="get(NAME)" \
-          | tail -n +2 \
-          | while read image; do
-              echo "Deleting old image: $image"
-              gcloud artifacts docker images delete $image --quiet --delete-tags
-            done
-
-      - name: Delete old Cloud Run revisions
-        run: |
-          gcloud run revisions list \
-            --service=eagles-api-service \
-            --region=${{ env.GCP_REGION }} \
-            --sort-by="~createTime" \
-            --format="value(METADATA.name)" \
-          | tail -n +2 \
-          | while read revision; do
-              echo "Deleting old revision: $revision"
-              gcloud run revisions delete $revision --region=${{ env.GCP_REGION }} --quiet
-            done
