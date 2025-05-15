@@ -1,13 +1,9 @@
 import json
 import os
 import random
+from app.constants import VALID_POSITIONS
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'official_roster.json')
-
-VALID_POSITIONS = [
-    "qb", "rb", "wr", "te", "ot", "g", "c",
-    "de", "dt", "lb", "cb", "s", "pk", "p", "ls"
-]
+DATA_PATH = os.path.join(os.path.dirname(__file__), '..', '..', 'data', 'official_roster.json')
 
 def load_roster():
     with open(DATA_PATH) as f:

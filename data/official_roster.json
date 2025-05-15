@@ -6,9 +6,9 @@
     "last_name": "Barkley",
     "position": "rb",
     "height": "6' 0\"",
-    "weight": "233.0",
-    "age": "28",
-    "years_pro": "7",
+    "weight": 233,
+    "age": 28,
+    "years_pro": 7,
     "college": "Penn State"
   },
   {
@@ -18,9 +18,9 @@
     "last_name": "Brown",
     "position": "wr",
     "height": "6' 1\"",
-    "weight": "226.0",
-    "age": "27",
-    "years_pro": "6",
+    "weight": 226,
+    "age": 27,
+    "years_pro": 6,
     "college": "Ole Miss"
   },
   {
@@ -30,9 +30,9 @@
     "last_name": "Bryant",
     "position": "te",
     "height": "6' 5\"",
-    "weight": "230.0",
-    "age": "27",
-    "years_pro": "5",
+    "weight": 230,
+    "age": 27,
+    "years_pro": 5,
     "college": "Florida Atlantic"
   },
   {
@@ -42,9 +42,9 @@
     "last_name": "Calcaterra",
     "position": "te",
     "height": "6' 4\"",
-    "weight": "240.0",
-    "age": "26",
-    "years_pro": "3",
+    "weight": 240,
+    "age": 26,
+    "years_pro": 3,
     "college": "SMU"
   },
   {
@@ -54,9 +54,9 @@
     "last_name": "Clark",
     "position": "ot",
     "height": "6' 5\"",
-    "weight": "319.0",
-    "age": "32",
-    "years_pro": "8",
+    "weight": 319,
+    "age": 32,
+    "years_pro": 8,
     "college": "Texas Tech"
   },
   {
@@ -66,9 +66,9 @@
     "last_name": "Cooks",
     "position": "wr",
     "height": "6' 4\"",
-    "weight": "215.0",
-    "age": "26",
-    "years_pro": "2",
+    "weight": 215,
+    "age": 26,
+    "years_pro": 2,
     "college": "San Jos\u00e9 State"
   },
   {
@@ -78,9 +78,9 @@
     "last_name": "Cooper",
     "position": "wr",
     "height": "6' 0\"",
-    "weight": "190.0",
+    "weight": 190,
     "age": "",
-    "years_pro": "4",
+    "years_pro": 4,
     "college": "Tarleton State"
   },
   {
@@ -90,9 +90,9 @@
     "last_name": "Dickerson",
     "position": "g",
     "height": "6' 6\"",
-    "weight": "332.0",
-    "age": "26",
-    "years_pro": "4",
+    "weight": 332,
+    "age": 26,
+    "years_pro": 4,
     "college": "Alabama"
   },
   {
@@ -102,9 +102,9 @@
     "last_name": "Dillon",
     "position": "rb",
     "height": "6' 0\"",
-    "weight": "247.0",
-    "age": "27",
-    "years_pro": "5",
+    "weight": 247,
+    "age": 27,
+    "years_pro": 5,
     "college": "Boston College"
   },
   {
@@ -114,9 +114,9 @@
     "last_name": "Dotson",
     "position": "wr",
     "height": "5' 11\"",
-    "weight": "184.0",
-    "age": "25",
-    "years_pro": "3",
+    "weight": 184,
+    "age": 25,
+    "years_pro": 3,
     "college": "Penn State"
   },
   {
@@ -126,9 +126,9 @@
     "last_name": "Goedert",
     "position": "te",
     "height": "6' 5\"",
-    "weight": "256.0",
-    "age": "30",
-    "years_pro": "7",
+    "weight": 256,
+    "age": 30,
+    "years_pro": 7,
     "college": "South Dakota State"
   },
   {
@@ -138,9 +138,9 @@
     "last_name": "Granson",
     "position": "te",
     "height": "6' 3\"",
-    "weight": "242.0",
-    "age": "27",
-    "years_pro": "4",
+    "weight": 242,
+    "age": 27,
+    "years_pro": 4,
     "college": "SMU"
   },
   {
@@ -150,9 +150,9 @@
     "last_name": "Gray",
     "position": "wr",
     "height": "6' 0\"",
-    "weight": "200.0",
-    "age": "26",
-    "years_pro": "3",
+    "weight": 200,
+    "age": 26,
+    "years_pro": 3,
     "college": "SMU"
   },
   {
@@ -162,9 +162,9 @@
     "last_name": "Green",
     "position": "g",
     "height": "6' 4\"",
-    "weight": "325.0",
-    "age": "24",
-    "years_pro": "3",
+    "weight": 325,
+    "age": 24,
+    "years_pro": 3,
     "college": "Texas A&M"
   },
   {
@@ -174,9 +174,9 @@
     "last_name": "Hinton",
     "position": "ot",
     "height": "6' 6\"",
-    "weight": "342.0",
-    "age": "23",
-    "years_pro": "0",
+    "weight": 342,
+    "age": 23,
+    "years_pro": 0,
     "college": "Michigan"
   },
   {
@@ -186,9 +186,9 @@
     "last_name": "Hurts",
     "position": "qb",
     "height": "6' 1\"",
-    "weight": "223.0",
-    "age": "26",
-    "years_pro": "5",
+    "weight": 223,
+    "age": 26,
+    "years_pro": 5,
     "college": "Oklahoma"
   },
   {
@@ -198,9 +198,9 @@
     "last_name": "Jackson",
     "position": "wr",
     "height": "5' 9\"",
-    "weight": "187.0",
-    "age": "23",
-    "years_pro": "0",
+    "weight": 187,
+    "age": 23,
+    "years_pro": 0,
     "college": "Washington"
   },
   {
@@ -210,9 +210,9 @@
     "last_name": "Jenkins",
     "position": "te",
     "height": "6' 6\"",
-    "weight": "245.0",
-    "age": "26",
-    "years_pro": "1",
+    "weight": 245,
+    "age": 26,
+    "years_pro": 1,
     "college": "Georgia Tech"
   },
   {
@@ -222,9 +222,9 @@
     "last_name": "Johnson",
     "position": "ot",
     "height": "6' 6\"",
-    "weight": "325.0",
-    "age": "35",
-    "years_pro": "12",
+    "weight": 325,
+    "age": 35,
+    "years_pro": 12,
     "college": "Oklahoma"
   },
   {
@@ -234,9 +234,9 @@
     "last_name": "Johnson Jr.",
     "position": "rb",
     "height": "5' 11\"",
-    "weight": "216.0",
+    "weight": 216,
     "age": "",
-    "years_pro": "0",
+    "years_pro": 0,
     "college": "Florida"
   },
   {
@@ -246,9 +246,9 @@
     "last_name": "Jurgens",
     "position": "c",
     "height": "6' 3\"",
-    "weight": "303.0",
-    "age": "25",
-    "years_pro": "3",
+    "weight": 303,
+    "age": 25,
+    "years_pro": 3,
     "college": "Nebraska"
   },
   {
@@ -258,9 +258,9 @@
     "last_name": "Keegan",
     "position": "g",
     "height": "6' 5\"",
-    "weight": "306.0",
-    "age": "24",
-    "years_pro": "0",
+    "weight": 306,
+    "age": 24,
+    "years_pro": 0,
     "college": "Michigan"
   },
   {
@@ -270,9 +270,9 @@
     "last_name": "Kendall",
     "position": "c",
     "height": "6' 4\"",
-    "weight": "299.0",
-    "age": "23",
-    "years_pro": "0",
+    "weight": 299,
+    "age": 23,
+    "years_pro": 0,
     "college": "Boston College"
   },
   {
@@ -282,9 +282,9 @@
     "last_name": "Kinnard",
     "position": "ot",
     "height": "6' 5\"",
-    "weight": "322.0",
-    "age": "25",
-    "years_pro": "2",
+    "weight": 322,
+    "age": 25,
+    "years_pro": 2,
     "college": "Kentucky"
   },
   {
@@ -294,9 +294,9 @@
     "last_name": "Lamm",
     "position": "ot",
     "height": "6' 5\"",
-    "weight": "308.0",
-    "age": "32",
-    "years_pro": "9",
+    "weight": 308,
+    "age": 32,
+    "years_pro": 9,
     "college": "App State"
   },
   {
@@ -306,9 +306,9 @@
     "last_name": "Latu",
     "position": "te",
     "height": "6' 5\"",
-    "weight": "244.0",
-    "age": "25",
-    "years_pro": "2",
+    "weight": 244,
+    "age": 25,
+    "years_pro": 2,
     "college": "Alabama"
   },
   {
@@ -318,9 +318,9 @@
     "last_name": "Mailata",
     "position": "ot",
     "height": "6' 8\"",
-    "weight": "365.0",
-    "age": "28",
-    "years_pro": "7",
+    "weight": 365,
+    "age": 28,
+    "years_pro": 7,
     "college": "N/A"
   },
   {
@@ -330,9 +330,9 @@
     "last_name": "Marshall Jr.",
     "position": "wr",
     "height": "6' 2\"",
-    "weight": "200.0",
-    "age": "24",
-    "years_pro": "4",
+    "weight": 200,
+    "age": 24,
+    "years_pro": 4,
     "college": "LSU"
   },
   {
@@ -342,9 +342,9 @@
     "last_name": "McCord",
     "position": "qb",
     "height": "6' 3\"",
-    "weight": "220.0",
-    "age": "22",
-    "years_pro": "0",
+    "weight": 220,
+    "age": 22,
+    "years_pro": 0,
     "college": "Syracuse"
   },
   {
@@ -354,9 +354,9 @@
     "last_name": "McKee",
     "position": "qb",
     "height": "6' 6\"",
-    "weight": "231.0",
-    "age": "25",
-    "years_pro": "2",
+    "weight": 231,
+    "age": 25,
+    "years_pro": 2,
     "college": "Stanford"
   },
   {
@@ -366,9 +366,9 @@
     "last_name": "Morin",
     "position": "wr",
     "height": "5' 11\"",
-    "weight": "185.0",
+    "weight": 185,
     "age": "",
-    "years_pro": "0",
+    "years_pro": 0,
     "college": "Wake Forest"
   },
   {
@@ -378,9 +378,9 @@
     "last_name": "Muse",
     "position": "te",
     "height": "6' 5\"",
-    "weight": "252.0",
-    "age": "26",
-    "years_pro": "3",
+    "weight": 252,
+    "age": 26,
+    "years_pro": 3,
     "college": "South Carolina"
   },
   {
@@ -390,9 +390,9 @@
     "last_name": "Nichols",
     "position": "rb",
     "height": "5' 10\"",
-    "weight": "220.0",
-    "age": "23",
-    "years_pro": "1",
+    "weight": 220,
+    "age": 23,
+    "years_pro": 1,
     "college": "Central Michigan"
   },
   {
@@ -402,9 +402,9 @@
     "last_name": "Pierce",
     "position": "ot",
     "height": "6' 8\"",
-    "weight": "344.0",
+    "weight": 344,
     "age": "",
-    "years_pro": "0",
+    "years_pro": 0,
     "college": "Rutgers"
   },
   {
@@ -414,9 +414,9 @@
     "last_name": "Powell",
     "position": "rb",
     "height": "5' 9\"",
-    "weight": "180.0",
+    "weight": 180,
     "age": "",
-    "years_pro": "0",
+    "years_pro": 0,
     "college": "Central Arkansas"
   },
   {
@@ -426,9 +426,9 @@
     "last_name": "Pryor",
     "position": "ot",
     "height": "6' 7\"",
-    "weight": "332.0",
-    "age": "30",
-    "years_pro": "7",
+    "weight": 332,
+    "age": 30,
+    "years_pro": 7,
     "college": "TCU"
   },
   {
@@ -438,9 +438,9 @@
     "last_name": "Shipley",
     "position": "rb",
     "height": "5' 11\"",
-    "weight": "209.0",
-    "age": "22",
-    "years_pro": "0",
+    "weight": 209,
+    "age": 22,
+    "years_pro": 0,
     "college": "Clemson"
   },
   {
@@ -450,9 +450,9 @@
     "last_name": "Smith",
     "position": "wr",
     "height": "5' 9\"",
-    "weight": "176.0",
-    "age": "23",
-    "years_pro": "0",
+    "weight": 176,
+    "age": 23,
+    "years_pro": 0,
     "college": "Texas A&M"
   },
   {
@@ -462,9 +462,9 @@
     "last_name": "Smith",
     "position": "wr",
     "height": "6' 0\"",
-    "weight": "170.0",
-    "age": "26",
-    "years_pro": "4",
+    "weight": 170,
+    "age": 26,
+    "years_pro": 4,
     "college": "Alabama"
   },
   {
@@ -474,9 +474,9 @@
     "last_name": "Steen",
     "position": "g",
     "height": "6' 6\"",
-    "weight": "321.0",
-    "age": "24",
-    "years_pro": "2",
+    "weight": 321,
+    "age": 24,
+    "years_pro": 2,
     "college": "Alabama"
   },
   {
@@ -486,9 +486,9 @@
     "last_name": "Thompson-Robinson",
     "position": "qb",
     "height": "6' 2\"",
-    "weight": "203.0",
-    "age": "25",
-    "years_pro": "2",
+    "weight": 203,
+    "age": 25,
+    "years_pro": 2,
     "college": "UCLA"
   },
   {
@@ -498,9 +498,9 @@
     "last_name": "Toth",
     "position": "ot",
     "height": "6' 6\"",
-    "weight": "304.0",
-    "age": "28",
-    "years_pro": "6",
+    "weight": 304,
+    "age": 28,
+    "years_pro": 6,
     "college": "Army"
   },
   {
@@ -510,9 +510,9 @@
     "last_name": "Vakalahi",
     "position": "ot",
     "height": "6' 5\"",
-    "weight": "320.0",
-    "age": "22",
-    "years_pro": "0",
+    "weight": 320,
+    "age": 22,
+    "years_pro": 0,
     "college": "N/A"
   },
   {
@@ -522,9 +522,9 @@
     "last_name": "Williams",
     "position": "rb",
     "height": "5' 9\"",
-    "weight": "195.0",
-    "age": "26",
-    "years_pro": "4",
+    "weight": 195,
+    "age": 26,
+    "years_pro": 4,
     "college": "Boise State"
   },
   {
@@ -534,9 +534,9 @@
     "last_name": "Williams",
     "position": "ot",
     "height": "6' 5\"",
-    "weight": "335.0",
-    "age": "21",
-    "years_pro": "0",
+    "weight": 335,
+    "age": 21,
+    "years_pro": 0,
     "college": "Texas"
   },
   {
@@ -546,9 +546,9 @@
     "last_name": "Wilson",
     "position": "wr",
     "height": "6' 6\"",
-    "weight": "228.0",
-    "age": "24",
-    "years_pro": "0",
+    "weight": 228,
+    "age": 24,
+    "years_pro": 0,
     "college": "Florida State"
   },
   {
@@ -558,9 +558,9 @@
     "last_name": "Baun",
     "position": "lb",
     "height": "6' 3\"",
-    "weight": "225.0",
-    "age": "28",
-    "years_pro": "5",
+    "weight": 225,
+    "age": 28,
+    "years_pro": 5,
     "college": "Wisconsin"
   },
   {
@@ -570,9 +570,9 @@
     "last_name": "Blankenship",
     "position": "s",
     "height": "6' 1\"",
-    "weight": "203.0",
-    "age": "26",
-    "years_pro": "3",
+    "weight": 203,
+    "age": 26,
+    "years_pro": 3,
     "college": "Middle Tennessee"
   },
   {
@@ -582,9 +582,9 @@
     "last_name": "Booker IV",
     "position": "dt",
     "height": "6' 3\"",
-    "weight": "301.0",
-    "age": "25",
-    "years_pro": "2",
+    "weight": 301,
+    "age": 25,
+    "years_pro": 2,
     "college": "Stanford"
   },
   {
@@ -594,9 +594,9 @@
     "last_name": "Brown",
     "position": "s",
     "height": "5' 10\"",
-    "weight": "211.0",
-    "age": "25",
-    "years_pro": "2",
+    "weight": 211,
+    "age": 25,
+    "years_pro": 2,
     "college": "Illinois"
   },
   {
@@ -606,9 +606,9 @@
     "last_name": "Campbell",
     "position": "lb",
     "height": "6' 3\"",
-    "weight": "244.0",
-    "age": "21",
-    "years_pro": "0",
+    "weight": 244,
+    "age": 21,
+    "years_pro": 0,
     "college": "Alabama"
   },
   {
@@ -618,9 +618,9 @@
     "last_name": "Carter",
     "position": "dt",
     "height": "6' 3\"",
-    "weight": "314.0",
-    "age": "24",
-    "years_pro": "2",
+    "weight": 314,
+    "age": 24,
+    "years_pro": 2,
     "college": "Georgia"
   },
   {
@@ -630,9 +630,9 @@
     "last_name": "Castro-Fields",
     "position": "cb",
     "height": "6' 1\"",
-    "weight": "197.0",
-    "age": "26",
-    "years_pro": "3",
+    "weight": 197,
+    "age": 26,
+    "years_pro": 3,
     "college": "Penn State"
   },
   {
@@ -642,9 +642,9 @@
     "last_name": "Cine",
     "position": "s",
     "height": "6' 2\"",
-    "weight": "199.0",
-    "age": "25",
-    "years_pro": "3",
+    "weight": 199,
+    "age": 25,
+    "years_pro": 3,
     "college": "Georgia"
   },
   {
@@ -654,9 +654,9 @@
     "last_name": "Davis",
     "position": "dt",
     "height": "6' 6\"",
-    "weight": "336.0",
-    "age": "25",
-    "years_pro": "3",
+    "weight": 336,
+    "age": 25,
+    "years_pro": 3,
     "college": "Georgia"
   },
   {
@@ -666,9 +666,9 @@
     "last_name": "Dean",
     "position": "lb",
     "height": "5' 11\"",
-    "weight": "231.0",
-    "age": "24",
-    "years_pro": "3",
+    "weight": 231,
+    "age": 24,
+    "years_pro": 3,
     "college": "Georgia"
   },
   {
@@ -678,9 +678,9 @@
     "last_name": "DeJean",
     "position": "cb",
     "height": "6' 0\"",
-    "weight": "198.0",
-    "age": "22",
-    "years_pro": "0",
+    "weight": 198,
+    "age": 22,
+    "years_pro": 0,
     "college": "Iowa"
   },
   {
@@ -690,9 +690,9 @@
     "last_name": "Dixon",
     "position": "lb",
     "height": "6' 2\"",
-    "weight": "233.0",
+    "weight": 233,
     "age": "",
-    "years_pro": "0",
+    "years_pro": 0,
     "college": "Toledo"
   },
   {
@@ -702,9 +702,9 @@
     "last_name": "Gant",
     "position": "lb",
     "height": "6' 2\"",
-    "weight": "224.0",
-    "age": "24",
-    "years_pro": "0",
+    "weight": 224,
+    "age": 24,
+    "years_pro": 0,
     "college": "Toledo"
   },
   {
@@ -714,9 +714,9 @@
     "last_name": "Graham",
     "position": "de",
     "height": "6' 2\"",
-    "weight": "265.0",
-    "age": "37",
-    "years_pro": "15",
+    "weight": 265,
+    "age": 37,
+    "years_pro": 15,
     "college": "Michigan"
   },
   {
@@ -726,9 +726,9 @@
     "last_name": "Hall",
     "position": "dt",
     "height": "6' 6\"",
-    "weight": "295.0",
-    "age": "24",
-    "years_pro": "0",
+    "weight": 295,
+    "age": 24,
+    "years_pro": 0,
     "college": "Baylor"
   },
   {
@@ -738,9 +738,9 @@
     "last_name": "Henry",
     "position": "de",
     "height": "6' 4\"",
-    "weight": "255.0",
-    "age": "26",
-    "years_pro": "2",
+    "weight": 255,
+    "age": 26,
+    "years_pro": 2,
     "college": "Clemson"
   },
   {
@@ -750,9 +750,9 @@
     "last_name": "Hook",
     "position": "db",
     "height": "6' 0\"",
-    "weight": "203.0",
+    "weight": 203,
     "age": "",
-    "years_pro": "0",
+    "years_pro": 0,
     "college": "Toledo"
   },
   {
@@ -762,9 +762,9 @@
     "last_name": "Huff",
     "position": "de",
     "height": "6' 3\"",
-    "weight": "255.0",
-    "age": "27",
-    "years_pro": "5",
+    "weight": 255,
+    "age": 27,
+    "years_pro": 5,
     "college": "Memphis"
   },
   {
@@ -774,9 +774,9 @@
     "last_name": "Hunt",
     "position": "lb",
     "height": "6' 3\"",
-    "weight": "252.0",
-    "age": "24",
-    "years_pro": "0",
+    "weight": 252,
+    "age": 24,
+    "years_pro": 0,
     "college": "Houston Christian"
   },
   {
@@ -786,9 +786,9 @@
     "last_name": "Jackson",
     "position": "cb",
     "height": "5' 11\"",
-    "weight": "185.0",
-    "age": "29",
-    "years_pro": "8",
+    "weight": 185,
+    "age": 29,
+    "years_pro": 8,
     "college": "USC"
   },
   {
@@ -798,9 +798,9 @@
     "last_name": "Johnson",
     "position": "db",
     "height": "5' 10\"",
-    "weight": "185.0",
+    "weight": 185,
     "age": "",
-    "years_pro": "0",
+    "years_pro": 0,
     "college": "Oregon"
   },
   {
@@ -810,9 +810,9 @@
     "last_name": "Johnson",
     "position": "lb",
     "height": "6' 2\"",
-    "weight": "248.0",
-    "age": "27",
-    "years_pro": "4",
+    "weight": 248,
+    "age": 27,
+    "years_pro": 4,
     "college": "Tulane"
   },
   {
@@ -822,9 +822,9 @@
     "last_name": "Mathis",
     "position": "lb",
     "height": "6' 5\"",
-    "weight": "260.0",
-    "age": "26",
-    "years_pro": "2",
+    "weight": 260,
+    "age": 26,
+    "years_pro": 2,
     "college": "Nebraska"
   },
   {
@@ -834,9 +834,9 @@
     "last_name": "Mayes",
     "position": "db",
     "height": "6' 1\"",
-    "weight": "195.0",
+    "weight": 195,
     "age": "",
-    "years_pro": "0",
+    "years_pro": 0,
     "college": "Texas A&M"
   },
   {
@@ -846,9 +846,9 @@
     "last_name": "McCollum",
     "position": "s",
     "height": "6' 3\"",
-    "weight": "195.0",
-    "age": "26",
-    "years_pro": "1",
+    "weight": 195,
+    "age": 26,
+    "years_pro": 1,
     "college": "Sam Houston"
   },
   {
@@ -858,9 +858,9 @@
     "last_name": "McWilliams",
     "position": "cb",
     "height": "5' 10\"",
-    "weight": "185.0",
-    "age": "23",
-    "years_pro": "0",
+    "weight": 185,
+    "age": 23,
+    "years_pro": 0,
     "college": "UCF"
   },
   {
@@ -870,9 +870,9 @@
     "last_name": "Mitchell",
     "position": "cb",
     "height": "6' 0\"",
-    "weight": "193.0",
-    "age": "23",
-    "years_pro": "0",
+    "weight": 193,
+    "age": 23,
+    "years_pro": 0,
     "college": "Toledo"
   },
   {
@@ -882,9 +882,9 @@
     "last_name": "Mondon Jr.",
     "position": "lb",
     "height": "6' 3\"",
-    "weight": "235.0",
-    "age": "22",
-    "years_pro": "0",
+    "weight": 235,
+    "age": 22,
+    "years_pro": 0,
     "college": "Georgia"
   },
   {
@@ -894,9 +894,9 @@
     "last_name": "Mukuba",
     "position": "s",
     "height": "6' 0\"",
-    "weight": "190.0",
-    "age": "22",
-    "years_pro": "0",
+    "weight": 190,
+    "age": 22,
+    "years_pro": 0,
     "college": "Texas"
   },
   {
@@ -906,9 +906,9 @@
     "last_name": "Nickerson",
     "position": "cb",
     "height": "5' 10\"",
-    "weight": "182.0",
-    "age": "30",
-    "years_pro": "5",
+    "weight": 182,
+    "age": 30,
+    "years_pro": 5,
     "college": "Tulane"
   },
   {
@@ -918,9 +918,9 @@
     "last_name": "Ojomo",
     "position": "dt",
     "height": "6' 3\"",
-    "weight": "292.0",
-    "age": "23",
-    "years_pro": "2",
+    "weight": 292,
+    "age": 23,
+    "years_pro": 2,
     "college": "Texas"
   },
   {
@@ -930,9 +930,9 @@
     "last_name": "Ojulari",
     "position": "de",
     "height": "6' 3\"",
-    "weight": "240.0",
-    "age": "24",
-    "years_pro": "5",
+    "weight": 240,
+    "age": 24,
+    "years_pro": 5,
     "college": "Georgia"
   },
   {
@@ -942,9 +942,9 @@
     "last_name": "Powell-Ryland",
     "position": "lb",
     "height": "6' 3\"",
-    "weight": "252.0",
-    "age": "23",
-    "years_pro": "0",
+    "weight": 252,
+    "age": 23,
+    "years_pro": 0,
     "college": "Virginia Tech"
   },
   {
@@ -954,9 +954,9 @@
     "last_name": "Ricks",
     "position": "cb",
     "height": "6' 2\"",
-    "weight": "188.0",
-    "age": "23",
-    "years_pro": "2",
+    "weight": 188,
+    "age": 23,
+    "years_pro": 2,
     "college": "Alabama"
   },
   {
@@ -966,9 +966,9 @@
     "last_name": "Ringo",
     "position": "cb",
     "height": "6' 2\"",
-    "weight": "207.0",
-    "age": "22",
-    "years_pro": "2",
+    "weight": 207,
+    "age": 22,
+    "years_pro": 2,
     "college": "Georgia"
   },
   {
@@ -978,9 +978,9 @@
     "last_name": "Robinson",
     "position": "dt",
     "height": "6' 6\"",
-    "weight": "310.0",
-    "age": "24",
-    "years_pro": "0",
+    "weight": 310,
+    "age": 24,
+    "years_pro": 0,
     "college": "Nebraska"
   },
   {
@@ -990,9 +990,9 @@
     "last_name": "Sam",
     "position": "s",
     "height": "5' 10\"",
-    "weight": "194.0",
-    "age": "26",
-    "years_pro": "0",
+    "weight": 194,
+    "age": 26,
+    "years_pro": 0,
     "college": "LSU"
   },
   {
@@ -1002,9 +1002,9 @@
     "last_name": "Smith Jr.",
     "position": "lb",
     "height": "6' 2\"",
-    "weight": "238.0",
-    "age": "24",
-    "years_pro": "2",
+    "weight": 238,
+    "age": 24,
+    "years_pro": 2,
     "college": "Georgia"
   },
   {
@@ -1014,9 +1014,9 @@
     "last_name": "Trotter Jr.",
     "position": "lb",
     "height": "6' 0\"",
-    "weight": "225.0",
-    "age": "22",
-    "years_pro": "0",
+    "weight": 225,
+    "age": 22,
+    "years_pro": 0,
     "college": "Clemson"
   },
   {
@@ -1026,9 +1026,9 @@
     "last_name": "Uche",
     "position": "lb",
     "height": "6' 1\"",
-    "weight": "240.0",
-    "age": "26",
-    "years_pro": "5",
+    "weight": 240,
+    "age": 26,
+    "years_pro": 5,
     "college": "Michigan"
   },
   {
@@ -1038,9 +1038,9 @@
     "last_name": "VanSumeren",
     "position": "lb",
     "height": "6' 2\"",
-    "weight": "231.0",
-    "age": "25",
-    "years_pro": "2",
+    "weight": 231,
+    "age": 25,
+    "years_pro": 2,
     "college": "Michigan State"
   },
   {
@@ -1050,9 +1050,9 @@
     "last_name": "Woods",
     "position": "cb",
     "height": "5' 9\"",
-    "weight": "186.0",
-    "age": "24",
-    "years_pro": "0",
+    "weight": 186,
+    "age": 24,
+    "years_pro": 0,
     "college": "Pittsburgh"
   },
   {
@@ -1062,9 +1062,9 @@
     "last_name": "Young",
     "position": "dt",
     "height": "6' 3\"",
-    "weight": "292.0",
-    "age": "24",
-    "years_pro": "2",
+    "weight": 292,
+    "age": 24,
+    "years_pro": 2,
     "college": "Alabama"
   },
   {
@@ -1074,9 +1074,9 @@
     "last_name": "Elliott",
     "position": "pk",
     "height": "5' 9\"",
-    "weight": "167.0",
-    "age": "30",
-    "years_pro": "8",
+    "weight": 167,
+    "age": 30,
+    "years_pro": 8,
     "college": "Memphis"
   },
   {
@@ -1086,9 +1086,9 @@
     "last_name": "Hughlett",
     "position": "ls",
     "height": "6' 4\"",
-    "weight": "248.0",
-    "age": "34",
-    "years_pro": "10",
+    "weight": 248,
+    "age": 34,
+    "years_pro": 10,
     "college": "UCF"
   },
   {
@@ -1098,9 +1098,9 @@
     "last_name": "Mann",
     "position": "p",
     "height": "5' 11\"",
-    "weight": "198.0",
-    "age": "27",
-    "years_pro": "5",
+    "weight": 198,
+    "age": 27,
+    "years_pro": 5,
     "college": "Texas A&M"
   }
 ]

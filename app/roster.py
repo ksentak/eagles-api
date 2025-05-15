@@ -25,9 +25,9 @@ def organize_roster(raw_data):
             "last_name": player.get("lastName"),
             "position": player.get("position", {}).get("abbreviation", "").lower(),
             "height": player.get("displayHeight"),
-            "weight": str(player.get("weight", "")),
-            "age": str(player.get("age", "")),
-            "years_pro": str(player.get("experience", {}).get("years", "")),
+            "weight": int(player.get("weight", "N/A")),
+            "age": player.get("age", "N/A"),
+            "years_pro": player.get("experience", {}).get("years", ""),
             "college": player.get("college", {}).get("shortName", "N/A"),
         })
     return official
