@@ -2,7 +2,7 @@ name: Deploy to Cloud Run
 
 on:
   workflow_run:
-    workflows: ["Build and Commit"] # name of the first workflow
+    workflows: ["Update NFL Roster"]
     types:
       - completed
 
