@@ -15,7 +15,7 @@ The Eagles API is a RESTful API built with Python & FastApi that provides basic 
 #### Base URL
 
 ```bash
-TODO - Add URL
+https://eagles-api-service-189864895985.us-east1.run.app/api/v1
 ```
 
 #### API Methods
