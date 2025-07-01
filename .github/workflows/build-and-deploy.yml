@@ -1,8 +1,10 @@
 name: Deploy to Cloud Run
 
 on:
-  push:
-    branches: [main]
+  workflow_run:
+    workflows: ["Build and Commit"] # name of the first workflow
+    types:
+      - completed
 
 jobs:
   deploy:
