@@ -5,6 +5,7 @@ on:
     workflows: ["Update NFL Roster"]
     types:
       - completed
+  workflow_dispatch:
 
 jobs:
   deploy:
