@@ -20,7 +20,7 @@ https://eagles-api-service-189864895985.us-east1.run.app/api/v1
 
 #### API Methods
 
-- `GET /api/v1players - Retrieves all players.`
+- `GET /api/v1/players - Retrieves all players.`
 
 - `GET /api/v1/players/random - Retrieves a random player.`
 
