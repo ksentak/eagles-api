@@ -48,6 +48,18 @@
     "college": "SMU"
   },
   {
+    "id": "4715355",
+    "number": "80",
+    "first_name": "Darius",
+    "last_name": "Cooper",
+    "position": "wr",
+    "height": "5' 11\"",
+    "weight": 210,
+    "age": 23,
+    "years_pro": 0,
+    "college": "Tarleton State"
+  },
+  {
     "id": "4035624",
     "number": "69",
     "first_name": "Landon",
@@ -228,18 +240,6 @@
     "college": "Stanford"
   },
   {
-    "id": "4567096",
-    "number": "18",
-    "first_name": "John",
-    "last_name": "Metchie III",
-    "position": "wr",
-    "height": "6' 0\"",
-    "weight": 195,
-    "age": 25,
-    "years_pro": 3,
-    "college": "Alabama"
-  },
-  {
     "id": "3055886",
     "number": "79",
     "first_name": "Matt",
@@ -360,6 +360,18 @@
     "college": "Georgia"
   },
   {
+    "id": "4240456",
+    "number": "N/A",
+    "first_name": "Michael",
+    "last_name": "Carter II",
+    "position": "cb",
+    "height": "5' 10\"",
+    "weight": 184,
+    "age": 26,
+    "years_pro": 5,
+    "college": "Duke"
+  },
+  {
     "id": "4381558",
     "number": "90",
     "first_name": "Jordan",
@@ -368,6 +380,18 @@
     "height": "6' 6\"",
     "weight": 336,
     "age": 25,
+    "years_pro": 4,
+    "college": "Georgia"
+  },
+  {
+    "id": "4426340",
+    "number": "17",
+    "first_name": "Nakobe",
+    "last_name": "Dean",
+    "position": "lb",
+    "height": "5' 11\"",
+    "weight": 231,
+    "age": 24,
     "years_pro": 4,
     "college": "Georgia"
   },
@@ -394,6 +418,18 @@
     "age": 29,
     "years_pro": 7,
     "college": "Wyoming"
+  },
+  {
+    "id": "13239",
+    "number": "55",
+    "first_name": "Brandon",
+    "last_name": "Graham",
+    "position": "de",
+    "height": "6' 2\"",
+    "weight": 265,
+    "age": 37,
+    "years_pro": 16,
+    "college": "Michigan"
   },
   {
     "id": "4571162",
@@ -480,18 +516,6 @@
     "college": "Texas"
   },
   {
-    "id": "3041098",
-    "number": "34",
-    "first_name": "Parry",
-    "last_name": "Nickerson",
-    "position": "cb",
-    "height": "5' 10\"",
-    "weight": 182,
-    "age": 30,
-    "years_pro": 5,
-    "college": "Tulane"
-  },
-  {
     "id": "4362116",
     "number": "97",
     "first_name": "Moro",
@@ -516,18 +540,6 @@
     "college": "Georgia"
   },
   {
-    "id": "3052667",
-    "number": "45",
-    "first_name": "Ogbo",
-    "last_name": "Okoronkwo",
-    "position": "de",
-    "height": "6' 2\"",
-    "weight": 253,
-    "age": 30,
-    "years_pro": 8,
-    "college": "Oklahoma"
-  },
-  {
     "id": "4428992",
     "number": "7",
     "first_name": "Kelee",
@@ -550,18 +562,6 @@
     "age": 24,
     "years_pro": 0,
     "college": "Nebraska"
-  },
-  {
-    "id": "3043168",
-    "number": "52",
-    "first_name": "Za'Darius",
-    "last_name": "Smith",
-    "position": "de",
-    "height": "6' 4\"",
-    "weight": 270,
-    "age": 33,
-    "years_pro": 11,
-    "college": "Kentucky"
   },
   {
     "id": "4432777",
@@ -600,6 +600,18 @@
     "college": "Alabama"
   },
   {
+    "id": "4240719",
+    "number": "57",
+    "first_name": "Cal",
+    "last_name": "Adomitis",
+    "position": "ls",
+    "height": "6' 2\"",
+    "weight": 238,
+    "age": 27,
+    "years_pro": 4,
+    "college": "Pittsburgh"
+  },
+  {
     "id": "3050478",
     "number": "4",
     "first_name": "Jake",
@@ -610,18 +622,6 @@
     "age": 30,
     "years_pro": 9,
     "college": "Memphis"
-  },
-  {
-    "id": "15379",
-    "number": "47",
-    "first_name": "Charley",
-    "last_name": "Hughlett",
-    "position": "ls",
-    "height": "6' 4\"",
-    "weight": 251,
-    "age": 35,
-    "years_pro": 11,
-    "college": "UCF"
   },
   {
     "id": "4035239",
@@ -648,30 +648,6 @@
     "college": "Maryland"
   },
   {
-    "id": "4715355",
-    "number": "80",
-    "first_name": "Darius",
-    "last_name": "Cooper",
-    "position": "wr",
-    "height": "5' 11\"",
-    "weight": 210,
-    "age": 23,
-    "years_pro": 0,
-    "college": "Tarleton State"
-  },
-  {
-    "id": "4426340",
-    "number": "17",
-    "first_name": "Nakobe",
-    "last_name": "Dean",
-    "position": "lb",
-    "height": "5' 11\"",
-    "weight": 231,
-    "age": 24,
-    "years_pro": 4,
-    "college": "Georgia"
-  },
-  {
     "id": "4429000",
     "number": "78",
     "first_name": "Myles",
@@ -684,6 +660,18 @@
     "college": "Michigan"
   },
   {
+    "id": "15379",
+    "number": "47",
+    "first_name": "Charley",
+    "last_name": "Hughlett",
+    "position": "ls",
+    "height": "6' 4\"",
+    "weight": 251,
+    "age": 35,
+    "years_pro": 11,
+    "college": "UCF"
+  },
+  {
     "id": "4582836",
     "number": "61",
     "first_name": "Willie",
@@ -694,6 +682,18 @@
     "age": 23,
     "years_pro": 0,
     "college": "North Carolina"
+  },
+  {
+    "id": "3052667",
+    "number": "45",
+    "first_name": "Ogbo",
+    "last_name": "Okoronkwo",
+    "position": "de",
+    "height": "6' 2\"",
+    "weight": 253,
+    "age": 30,
+    "years_pro": 8,
+    "college": "Oklahoma"
   },
   {
     "id": "4426331",
@@ -727,7 +727,7 @@
     "position": "ot",
     "height": "6' 5\"",
     "weight": 317,
-    "age": 21,
+    "age": 22,
     "years_pro": 0,
     "college": "Texas"
   },
@@ -744,18 +744,6 @@
     "college": "Florida State"
   },
   {
-    "id": "4692022",
-    "number": "N/A",
-    "first_name": "Javon",
-    "last_name": "Baker",
-    "position": "wr",
-    "height": "6' 1\"",
-    "weight": 202,
-    "age": 23,
-    "years_pro": 2,
-    "college": "UCF"
-  },
-  {
     "id": "4372051",
     "number": "59",
     "first_name": "Chance",
@@ -763,9 +751,21 @@
     "position": "lb",
     "height": "6' 2\"",
     "weight": 232,
-    "age": 25,
+    "age": 26,
     "years_pro": 4,
     "college": "Ole Miss"
+  },
+  {
+    "id": "4259590",
+    "number": "46",
+    "first_name": "Tariq",
+    "last_name": "Castro-Fields",
+    "position": "cb",
+    "height": "6' 1\"",
+    "weight": 197,
+    "age": 26,
+    "years_pro": 3,
+    "college": "Penn State"
   },
   {
     "id": "3926231",
@@ -778,30 +778,6 @@
     "age": 28,
     "years_pro": 4,
     "college": "Utah"
-  },
-  {
-    "id": "4427079",
-    "number": "41",
-    "first_name": "Lance",
-    "last_name": "Dixon",
-    "position": "lb",
-    "height": "6' 2\"",
-    "weight": 233,
-    "age": 24,
-    "years_pro": 0,
-    "college": "Toledo"
-  },
-  {
-    "id": "4569682",
-    "number": "N/A",
-    "first_name": "Audric",
-    "last_name": "Estime",
-    "position": "rb",
-    "height": "5' 11\"",
-    "weight": 227,
-    "age": 22,
-    "years_pro": 2,
-    "college": "Notre Dame"
   },
   {
     "id": "4427173",
@@ -888,6 +864,30 @@
     "college": "Syracuse"
   },
   {
+    "id": "3041098",
+    "number": "34",
+    "first_name": "Parry",
+    "last_name": "Nickerson",
+    "position": "cb",
+    "height": "5' 10\"",
+    "weight": 182,
+    "age": 31,
+    "years_pro": 5,
+    "college": "Tulane"
+  },
+  {
+    "id": "3121009",
+    "number": "78",
+    "first_name": "Sua",
+    "last_name": "Opeta",
+    "position": "g",
+    "height": "6' 4\"",
+    "weight": 305,
+    "age": 29,
+    "years_pro": 6,
+    "college": "Weber State"
+  },
+  {
     "id": "4698119",
     "number": "N/A",
     "first_name": "Hollin",
@@ -898,6 +898,18 @@
     "age": 24,
     "years_pro": 0,
     "college": "Rutgers"
+  },
+  {
+    "id": "4429009",
+    "number": "N/A",
+    "first_name": "Antwaun",
+    "last_name": "Powell-Ryland Jr.",
+    "position": "lb",
+    "height": "6' 2\"",
+    "weight": 258,
+    "age": 23,
+    "years_pro": 0,
+    "college": "Virginia Tech"
   },
   {
     "id": "4429011",
