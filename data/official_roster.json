@@ -36,18 +36,6 @@
     "college": "Auburn"
   },
   {
-    "id": "4047646",
-    "number": "11",
-    "first_name": "A.J.",
-    "last_name": "Brown",
-    "position": "wr",
-    "height": "6' 1\"",
-    "weight": 226,
-    "age": 28,
-    "years_pro": 8,
-    "college": "Ole Miss"
-  },
-  {
     "id": "4241372",
     "number": "0",
     "first_name": "Hollywood",
@@ -55,7 +43,7 @@
     "position": "wr",
     "height": "5' 9\"",
     "weight": 170,
-    "age": 28,
+    "age": 29,
     "years_pro": 8,
     "college": "Oklahoma"
   },
@@ -120,6 +108,18 @@
     "college": "Alabama"
   },
   {
+    "id": "4362186",
+    "number": "N/A",
+    "first_name": "Erik",
+    "last_name": "Ezukanma",
+    "position": "wr",
+    "height": "6' 2\"",
+    "weight": 210,
+    "age": 26,
+    "years_pro": 3,
+    "college": "Texas Tech"
+  },
+  {
     "id": "3121023",
     "number": "88",
     "first_name": "Dallas",
@@ -142,18 +142,6 @@
     "age": 27,
     "years_pro": 3,
     "college": "SMU"
-  },
-  {
-    "id": "4606713",
-    "number": "N/A",
-    "first_name": "Brandon",
-    "last_name": "Hayes",
-    "position": "wr",
-    "height": "6' 2\"",
-    "weight": 205,
-    "age": "N/A",
-    "years_pro": 0,
-    "college": "SE Louisiana"
   },
   {
     "id": "4429000",
@@ -199,7 +187,7 @@
     "position": "ot",
     "height": "6' 7\"",
     "weight": 326,
-    "age": 28,
+    "age": 29,
     "years_pro": 8,
     "college": "Florida"
   },
@@ -214,6 +202,18 @@
     "age": 36,
     "years_pro": 14,
     "college": "Oklahoma"
+  },
+  {
+    "id": "4040622",
+    "number": "N/A",
+    "first_name": "Mike",
+    "last_name": "Jordan",
+    "position": "g",
+    "height": "6' 6\"",
+    "weight": 312,
+    "age": 28,
+    "years_pro": 6,
+    "college": "Ohio State"
   },
   {
     "id": "4361178",
@@ -271,7 +271,7 @@
     "position": "wr",
     "height": "5' 11\"",
     "weight": 195,
-    "age": 21,
+    "age": 22,
     "years_pro": 0,
     "college": "USC"
   },
@@ -310,6 +310,18 @@
     "age": 26,
     "years_pro": 4,
     "college": "Stanford"
+  },
+  {
+    "id": "4241555",
+    "number": "N/A",
+    "first_name": "Elijah",
+    "last_name": "Mitchell",
+    "position": "rb",
+    "height": "5' 10\"",
+    "weight": 215,
+    "age": 28,
+    "years_pro": 6,
+    "college": "Louisiana"
   },
   {
     "id": "4372414",
@@ -463,7 +475,7 @@
     "position": "g",
     "height": "6' 6\"",
     "weight": 321,
-    "age": 25,
+    "age": 26,
     "years_pro": 4,
     "college": "Alabama"
   },
@@ -480,6 +492,18 @@
     "college": "Vanderbilt"
   },
   {
+    "id": "4027873",
+    "number": "89",
+    "first_name": "Samori",
+    "last_name": "Toure",
+    "position": "wr",
+    "height": "6' 1\"",
+    "weight": 196,
+    "age": 28,
+    "years_pro": 3,
+    "college": "Nebraska"
+  },
+  {
     "id": "4050373",
     "number": "86",
     "first_name": "Quez",
@@ -487,7 +511,7 @@
     "position": "wr",
     "height": "6' 0\"",
     "weight": 193,
-    "age": 27,
+    "age": 28,
     "years_pro": 5,
     "college": "Southern Miss"
   },
@@ -499,7 +523,7 @@
     "position": "wr",
     "height": "6' 1\"",
     "weight": 206,
-    "age": 24,
+    "age": 25,
     "years_pro": 4,
     "college": "Virginia"
   },
@@ -672,6 +696,18 @@
     "college": "Penn State"
   },
   {
+    "id": "4240585",
+    "number": "N/A",
+    "first_name": "AJ",
+    "last_name": "Epenesa",
+    "position": "de",
+    "height": "6' 6\"",
+    "weight": 260,
+    "age": 27,
+    "years_pro": 6,
+    "college": "Iowa"
+  },
+  {
     "id": "3139368",
     "number": "29",
     "first_name": "Marcus",
@@ -682,18 +718,6 @@
     "age": 30,
     "years_pro": 8,
     "college": "Wyoming"
-  },
-  {
-    "id": "13239",
-    "number": "55",
-    "first_name": "Brandon",
-    "last_name": "Graham",
-    "position": "de",
-    "height": "6' 2\"",
-    "weight": 265,
-    "age": 38,
-    "years_pro": 17,
-    "college": "Michigan"
   },
   {
     "id": "4262197",
@@ -780,18 +804,6 @@
     "college": "New Mexico"
   },
   {
-    "id": "4594338",
-    "number": "49",
-    "first_name": "Brandon",
-    "last_name": "Johnson",
-    "position": "cb",
-    "height": "5' 10\"",
-    "weight": 185,
-    "age": 23,
-    "years_pro": 1,
-    "college": "Oregon"
-  },
-  {
     "id": "2971027",
     "number": "32",
     "first_name": "Jonathan",
@@ -804,18 +816,6 @@
     "college": "Auburn"
   },
   {
-    "id": "4887451",
-    "number": "4",
-    "first_name": "Isiah",
-    "last_name": "King",
-    "position": "lb",
-    "height": "6' 3\"",
-    "weight": 215,
-    "age": "N/A",
-    "years_pro": 0,
-    "college": "Idaho"
-  },
-  {
     "id": "4432725",
     "number": "N/A",
     "first_name": "Deontae",
@@ -826,18 +826,6 @@
     "age": "N/A",
     "years_pro": 0,
     "college": "Alabama"
-  },
-  {
-    "id": "4695086",
-    "number": "N/A",
-    "first_name": "Chandler",
-    "last_name": "Martin",
-    "position": "lb",
-    "height": "6' 0\"",
-    "weight": 230,
-    "age": 23,
-    "years_pro": 1,
-    "college": "Memphis"
   },
   {
     "id": "4689651",
@@ -931,7 +919,7 @@
     "position": "cb",
     "height": "6' 2\"",
     "weight": 207,
-    "age": 23,
+    "age": 24,
     "years_pro": 4,
     "college": "Georgia"
   },
@@ -996,16 +984,16 @@
     "college": "Clemson"
   },
   {
-    "id": "4243333",
-    "number": "93",
-    "first_name": "Joe",
-    "last_name": "Tryon-Shoyinka",
-    "position": "lb",
-    "height": "6' 5\"",
-    "weight": 259,
+    "id": "4241995",
+    "number": "N/A",
+    "first_name": "Shaun",
+    "last_name": "Wade",
+    "position": "cb",
+    "height": "6' 1\"",
+    "weight": 196,
     "age": 27,
-    "years_pro": 6,
-    "college": "Washington"
+    "years_pro": 4,
+    "college": "Ohio State"
   },
   {
     "id": "5344965",
@@ -1018,6 +1006,18 @@
     "age": "N/A",
     "years_pro": 0,
     "college": "N/A"
+  },
+  {
+    "id": "4872850",
+    "number": "N/A",
+    "first_name": "Zion",
+    "last_name": "Wilson",
+    "position": "dt",
+    "height": "6' 3\"",
+    "weight": 318,
+    "age": "N/A",
+    "years_pro": 0,
+    "college": "East Carolina"
   },
   {
     "id": "4693345",
