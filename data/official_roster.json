@@ -60,6 +60,18 @@
     "college": "Tarleton St"
   },
   {
+    "id": "3926231",
+    "number": "85",
+    "first_name": "Britain",
+    "last_name": "Covey",
+    "position": "wr",
+    "height": "5' 8\"",
+    "weight": 173,
+    "age": 29,
+    "years_pro": 5,
+    "college": "Utah"
+  },
+  {
     "id": "14012",
     "number": "14",
     "first_name": "Andy",
@@ -72,16 +84,16 @@
     "college": "TCU"
   },
   {
-    "id": "4035624",
-    "number": "69",
-    "first_name": "Landon",
-    "last_name": "Dickerson",
-    "position": "g",
-    "height": "6' 6\"",
-    "weight": 332,
-    "age": 27,
-    "years_pro": 6,
-    "college": "Alabama"
+    "id": "15835",
+    "number": "N/A",
+    "first_name": "Zach",
+    "last_name": "Ertz",
+    "position": "te",
+    "height": "6' 5\"",
+    "weight": 250,
+    "age": 35,
+    "years_pro": 14,
+    "college": "Stanford"
   },
   {
     "id": "3121023",
@@ -253,7 +265,7 @@
   },
   {
     "id": "4879250",
-    "number": "10",
+    "number": "18",
     "first_name": "Cole",
     "last_name": "Payton",
     "position": "qb",
@@ -300,18 +312,6 @@
     "college": "Alabama"
   },
   {
-    "id": "4431574",
-    "number": "87",
-    "first_name": "Eli",
-    "last_name": "Stowers",
-    "position": "te",
-    "height": "6' 4\"",
-    "weight": 239,
-    "age": 23,
-    "years_pro": 0,
-    "college": "Vanderbilt"
-  },
-  {
     "id": "4428850",
     "number": "13",
     "first_name": "Dontayvion",
@@ -334,6 +334,18 @@
     "age": 29,
     "years_pro": 7,
     "college": "Wisconsin"
+  },
+  {
+    "id": "4372051",
+    "number": "59",
+    "first_name": "Chance",
+    "last_name": "Campbell",
+    "position": "lb",
+    "height": "6' 2\"",
+    "weight": 232,
+    "age": 26,
+    "years_pro": 4,
+    "college": "Ole Miss"
   },
   {
     "id": "4685287",
@@ -415,7 +427,7 @@
     "position": "de",
     "height": "6' 6\"",
     "weight": 280,
-    "age": 27,
+    "age": 28,
     "years_pro": 7,
     "college": "Iowa"
   },
@@ -457,13 +469,13 @@
   },
   {
     "id": "2971027",
-    "number": "32",
+    "number": "31",
     "first_name": "Jonathan",
     "last_name": "Jones",
     "position": "cb",
     "height": "5' 10\"",
     "weight": 190,
-    "age": 32,
+    "age": 33,
     "years_pro": 11,
     "college": "Auburn"
   },
@@ -502,6 +514,18 @@
     "age": 23,
     "years_pro": 2,
     "college": "Georgia"
+  },
+  {
+    "id": "4218312",
+    "number": "38",
+    "first_name": "Kenny",
+    "last_name": "Moore II",
+    "position": "cb",
+    "height": "5' 9\"",
+    "weight": 190,
+    "age": 31,
+    "years_pro": 10,
+    "college": "Valdosta St"
   },
   {
     "id": "4602197",
@@ -625,7 +649,7 @@
   },
   {
     "id": "4686566",
-    "number": "37",
+    "number": "41",
     "first_name": "Rocco",
     "last_name": "Underwood",
     "position": "ls",
@@ -672,16 +696,16 @@
     "college": "Penn State"
   },
   {
-    "id": "4690972",
-    "number": "45",
-    "first_name": "Ja'Quinden",
-    "last_name": "Jackson",
-    "position": "rb",
-    "height": "6' 2\"",
-    "weight": 233,
-    "age": 24,
-    "years_pro": 1,
-    "college": "Arkansas"
+    "id": "4035624",
+    "number": "69",
+    "first_name": "Landon",
+    "last_name": "Dickerson",
+    "position": "g",
+    "height": "6' 6\"",
+    "weight": 332,
+    "age": 28,
+    "years_pro": 6,
+    "college": "Alabama"
   },
   {
     "id": "4878896",
@@ -708,6 +732,18 @@
     "college": "LSU"
   },
   {
+    "id": "4431574",
+    "number": "87",
+    "first_name": "Eli",
+    "last_name": "Stowers",
+    "position": "te",
+    "height": "6' 4\"",
+    "weight": 239,
+    "age": 23,
+    "years_pro": 0,
+    "college": "Vanderbilt"
+  },
+  {
     "id": "4686104",
     "number": "89",
     "first_name": "Johnny",
@@ -718,6 +754,18 @@
     "age": 25,
     "years_pro": 3,
     "college": "Florida St"
+  },
+  {
+    "id": "4883090",
+    "number": "N/A",
+    "first_name": "Kiran",
+    "last_name": "Amegadjie",
+    "position": "ot",
+    "height": "6' 5\"",
+    "weight": 326,
+    "age": 24,
+    "years_pro": 3,
+    "college": "Yale"
   },
   {
     "id": "5344966",
@@ -732,28 +780,40 @@
     "college": "N/A"
   },
   {
-    "id": "4372051",
-    "number": "59",
-    "first_name": "Chance",
-    "last_name": "Campbell",
-    "position": "lb",
-    "height": "6' 2\"",
-    "weight": 232,
-    "age": 26,
-    "years_pro": 4,
-    "college": "Ole Miss"
+    "id": "4685279",
+    "number": "N/A",
+    "first_name": "Jaydon",
+    "last_name": "Blue",
+    "position": "rb",
+    "height": "5' 9\"",
+    "weight": 198,
+    "age": 22,
+    "years_pro": 2,
+    "college": "Texas"
   },
   {
-    "id": "3926231",
-    "number": "18",
-    "first_name": "Britain",
-    "last_name": "Covey",
-    "position": "wr",
-    "height": "5' 8\"",
-    "weight": 173,
+    "id": "3914151",
+    "number": "N/A",
+    "first_name": "Josiah",
+    "last_name": "Deguara",
+    "position": "te",
+    "height": "6' 2\"",
+    "weight": 238,
     "age": 29,
-    "years_pro": 5,
-    "college": "Utah"
+    "years_pro": 6,
+    "college": "Cincinnati"
+  },
+  {
+    "id": "4427278",
+    "number": "86",
+    "first_name": "Xavier",
+    "last_name": "Gipson",
+    "position": "wr",
+    "height": "5' 9\"",
+    "weight": 189,
+    "age": 25,
+    "years_pro": 4,
+    "college": "SF Austin"
   },
   {
     "id": "4429731",
@@ -816,18 +876,6 @@
     "college": "Florida"
   },
   {
-    "id": "5082391",
-    "number": "36",
-    "first_name": "Maximus",
-    "last_name": "Pulley",
-    "position": "s",
-    "height": "5' 11\"",
-    "weight": 200,
-    "age": 23,
-    "years_pro": 0,
-    "college": "Wofford"
-  },
-  {
     "id": "4691903",
     "number": "90",
     "first_name": "Mason",
@@ -850,6 +898,18 @@
     "age": 23,
     "years_pro": 2,
     "college": "UCLA"
+  },
+  {
+    "id": "4241995",
+    "number": "30",
+    "first_name": "Shaun",
+    "last_name": "Wade",
+    "position": "cb",
+    "height": "6' 1\"",
+    "weight": 191,
+    "age": 28,
+    "years_pro": 4,
+    "college": "Ohio State"
   },
   {
     "id": "5344965",
